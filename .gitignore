@@ -1,0 +1,23 @@
+# -----virtualisation Files------------
+# we do not upload the 10 gig virtual router to github
+*.vdi
+*.vbox
+*.vbox-prev
+*vmsd
+*.vmsn
+
+
+#-----Database and security--------
+# do not upload passwords or local environment settings
+.env
+config.php
+db_password.txt
+
+
+#--------Programming Junk----------
+# donot upload the java / python temporary files
+*.class
+_pycache_/
+*.pyc
+.vscode/
+.idea/
