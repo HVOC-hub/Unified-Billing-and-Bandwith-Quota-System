@@ -26,3 +26,13 @@ SYSTEM DEVELOPMENT LIFE CYCLE
    functional testing - does the database update
    SLA testing - does the throttling work when the voucher expires
    Security testing - does changing the ip address do anything   
+
+
+# Progress log : phase 1
+(INFRASTRUCTURE)
+Established the core networking environment.
+**Router Engine** Deployed MikroTik CHR(Cloud Hosted Router) v7.20.8 on virtualbox.
+**Networking** Configured a host only adapter for a dedicated management network.
+**Static Addressing** assigned static ip 192.168.56.10 to the CHR for reliable API communication
+                     assigned static ip 192.168.56.1 to the virtual box host-only ethernet adapter
+**Connectivity** Verified communication via winbox and ICMP (ping)
